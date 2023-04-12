@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
       type="text/css"
       href="https://fonts.googleapis.com/css?family=Poppins"
     />
@@ -92,7 +96,21 @@
             </div>
           </div>
           <div class="calculate">
-            <div class="btn-calculate" onclick="calculate()">Hitung</div>
+            <div
+              class="btn-calculate"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+              onclick="calculate()"
+            >
+              <span>Hitung</span>
+              <i
+                class="fas fa-long-arrow-alt-right"
+                style="margin-left: 10px; font-size: 25px"
+              ></i>
+            </div>
           </div>
         </form>
       </div>
@@ -135,7 +153,17 @@
           >
             <div class="btn-calculate">Konsultasi</div>
           </a>
-          <div class="btn-calculate" onclick="back()">Cek ulang</div>
+          <div
+            class="btn-calculate"
+            style="display: flex; align-items: center; justify-content: center"
+            onclick="back()"
+          >
+            <span>Cek ulang</span>
+            <i
+              class="fas fa-redo-alt"
+              style="margin-left: 7px; font-size: 13px"
+            ></i>
+          </div>
         </div>
       </div>
       <div id="qna">
